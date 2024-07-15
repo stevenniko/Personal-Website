@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: linear-gradient(to bottom, lightblue, maize);
+    background: url('image.png') no-repeat center center fixed; /* Add this line */
+    background-size: cover; /* Add this line */
     overflow: hidden;
 }
 
